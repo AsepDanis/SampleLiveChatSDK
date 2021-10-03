@@ -19,7 +19,35 @@ allprojects {
 }
 ```
 
-2. Add the dependency
+2. Add into app/build.gradle
+```
+plugins {
+    ...
+}
+
+Properties properties = new Properties()
+properties.load(project.rootProject.file("local.properties").newDataInputStream())
+repositories {
+    maven {
+        name = "GitHubPackages"
+        url = uri("https://maven.pkg.github.com/AsepDanis/livechatSDK")
+        credentials {
+            username = properties.getProperty("ext.user")
+            password = properties.getProperty("ext.key")
+        }
+    }
+}
+
+android {
+    ...
+}
+
+dependencies {
+    ...
+}
+``` 
+
+3. Add the dependency
 ```
 implementation "org.sociomile.livechat:core-sdk:1.0.0"
 ``` 
