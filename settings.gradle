@@ -1,0 +1,2 @@
+rootProject.name = "TestLiveChatSDK"
+include ':app'
