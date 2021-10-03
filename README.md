@@ -1,4 +1,4 @@
-# Test Live Chat SDK by Sociomile
+# Live Chat SDK by Sociomile
 
 ### Required
 
