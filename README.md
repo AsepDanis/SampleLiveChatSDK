@@ -41,10 +41,6 @@ repositories {
 android {
     ...
 }
-
-dependencies {
-    ...
-}
 ``` 
 
 3. Add the dependency
@@ -71,7 +67,7 @@ Usage is very simply, you only need to do following:
 
 * your set clientId already registered in sociomile:
 ```
-SocketManager.clientId = /* your clientId set in here */
+SocketManager.clientId = "/* your clientId set in here */"
 ```
 
 * your create `CoroutineEvent.registerEvent` for handle event:
