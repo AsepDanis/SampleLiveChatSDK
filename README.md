@@ -2,8 +2,8 @@
 
 ### Required
 
-1. Programming language Kotlin
-2. Minimum Android SDK 21 (Android 5.0 - 5.0.2 Lollipop)
+* Programming language Kotlin
+* Minimum Android SDK 21 (Android 5.0 - 5.0.2 Lollipop)
 
 ### Download
 
