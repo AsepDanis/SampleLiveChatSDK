@@ -19,7 +19,14 @@ allprojects {
 }
 ```
 
-2. Add into app/build.gradle
+2. Add into the root local.properties file of your project.
+```
+# credential for download library live chat sdk request to admin sociomile
+ext.user = /* your userid */
+ext.key = /* your personal token */
+```
+
+3. Add into app/build.gradle file of your project.
 ```
 plugins {
     ...
@@ -43,7 +50,7 @@ android {
 }
 ``` 
 
-3. Add the dependency
+4. Add the dependency
 ```
 implementation "org.sociomile.livechat.sdk:core:1.0.3"
 ``` 
