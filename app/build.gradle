@@ -62,7 +62,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
 
     //required for implement live chat by sociomile
-    implementation "org.sociomile.livechat.sdk:core:1.0.3"
+    implementation "org.sociomile.livechat.sdk:core:1.0.4"
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
