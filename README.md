@@ -52,7 +52,7 @@ android {
 
 4. Add the dependency
 ```
-implementation "org.sociomile.livechat.sdk:core:1.0.4"
+implementation "org.sociomile.livechat.sdk:core:1.0.5"
 ``` 
 
 ### Usage
